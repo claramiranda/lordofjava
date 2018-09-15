@@ -1,4 +1,4 @@
-# Lord Of Java - Sistema de Batalhas para RPG
+﻿# Lord Of Java - Sistema de Batalhas para RPG
 
 O jogo Batalhas de RPG será capaz colocar personagens para se enfrentar em uma batalha. Nessa batalha, os personagens podem ter diferentes classes, que definem suas habilidades e como evoluem, níveis e itens. 
 Personagens:
@@ -98,8 +98,6 @@ A única classe que pede entrada de dados e exibe mensagens na tela é a **Batal
 Reforçando: Nenhuma classe pede entrada ou exibe saída em seus métodos, com exceção da classe Batalha. Dessa forma as classes que tratam os personagens (classes de dados) ficarão genéricas e podem ser facilmente adaptadas para um projeto com uma interface visual diferente.
 
 ## Implementações Futuras
-* Interface gráfica
 * Itens para uso nas batalhas (classes já iniciadas no pacote src/itens)
-* Adicionar texto para criar uma história no arquivo game.txt
-* Opção para ramificação da história, permitindo diferentes finais
 * Save game
+* Novas habilidades adquiridas por nível
